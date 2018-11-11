@@ -1,0 +1,8 @@
+# [ ] create, call and test fishstore() function 
+# then PASTE THIS CODE into edX
+
+def fishstore(fish, price):
+    fish_price = "Today's market price is " + fish + " $ " + price
+    return fish_price
+today_market = fishstore(input("What's today's fish?: "), input("What is the price?: "))
+print(today_market)
